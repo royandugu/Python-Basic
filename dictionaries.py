@@ -17,3 +17,11 @@ del person["phone"]
 age=person.pop("age")
 print(person)
 print(age)
+
+
+#List of dictionaries
+people=[
+    {"name":"Royan",age:10},
+    {"name":"Arshiya",age:20}
+]
+print(people[0]["name"])
